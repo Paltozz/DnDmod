@@ -1,0 +1,19 @@
+{
+  "item.dndmod.owlbear_feather": "Owlbear Feather",
+  "item.dndmod.owlbear_claw": "Owlbear Claw",
+  "item.dndmod.raw_adamant": "Raw Adamant",
+  "item.dndmod.raw_electrum": "Raw Electrum",
+  "item.dndmod.raw_adamantine": "Raw Adamantine",
+  "item.dndmod.adamant_ingot": "Adamant Ingot",
+  "item.dndmod.electrum_ingot": "Electrum Ingot",
+  "item.dndmod.adamantine_ingot": "Adamantine Ingot",
+
+  "block.dndmod.adamant_ore": "Adamant Ore",
+  "block.dndmod.deepslate_adamant_ore": "Deepslate Adamant Ore",
+  "block.dndmod.raw_adamant_block": "Block of Raw Adamant",
+  "block.dndmod.raw_adamantine_block": "Block of Raw Adamantine",
+  "block.dndmod.adamantine_block": "Block of Adamantine",
+  "block.dndmod.adamant_block": "Block of Adamant",
+
+  "creativetab.dnd_tab": "D&D Mod"
+}

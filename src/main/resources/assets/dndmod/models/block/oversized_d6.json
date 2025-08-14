@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "down": "dndmod:block/oversized_d6_down",
+    "up": "dndmod:block/oversized_d6_up",
+    "north": "dndmod:block/oversized_d6_north",
+    "south": "dndmod:block/oversized_d6_south",
+    "west": "dndmod:block/oversized_d6_west",
+    "east": "dndmod:block/oversized_d6_east",
+    "particle": "#north"
+  }
+}

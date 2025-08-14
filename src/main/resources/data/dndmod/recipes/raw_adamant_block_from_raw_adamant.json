@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "dndmod:raw_adamant"
+    }
+  },
+  "result": {
+    "item": "dndmod:raw_adamant_block"
+  }
+}
