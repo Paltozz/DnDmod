@@ -20,6 +20,7 @@ public static final RegistryObject<CreativeModeTab> DND_TAB = CREATIVE_MODE_TABS
                 .displayItems((itemDisplayParameters, output) -> {
                     output.accept(ModItems.OWLBEAR_FEATHER.get());
                     output.accept(ModItems.OWLBEAR_CLAW.get());
+
                     output.accept(ModItems.RAW_ADAMANT.get());
                     output.accept(ModItems.RAW_ELECTRUM.get());
                     output.accept(ModItems.RAW_ADAMANTINE.get());
@@ -29,9 +30,14 @@ public static final RegistryObject<CreativeModeTab> DND_TAB = CREATIVE_MODE_TABS
 
                     output.accept(ModBlocks.ADAMANT_ORE.get());
                     output.accept(ModBlocks.DEEPSLATE_ADAMANT_ORE.get());
+                    output.accept(ModBlocks.ELECTRUM_ORE.get());
+                    output.accept(ModBlocks.DEEPSLATE_ELECTRUM_ORE.get());
+
                     output.accept(ModBlocks.RAW_ADAMANT_BLOCK.get());
+                    output.accept(ModBlocks.RAW_ELECTRUM_BLOCK.get());
                     output.accept(ModBlocks.RAW_ADAMANTINE_BLOCK.get());
                     output.accept(ModBlocks.ADAMANT_BLOCK.get());
+                    output.accept(ModBlocks.ELECTRUM_BLOCK.get());
                     output.accept(ModBlocks.ADAMANTINE_BLOCK.get());
 
                 } )

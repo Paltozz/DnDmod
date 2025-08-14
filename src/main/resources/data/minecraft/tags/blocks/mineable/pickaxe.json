@@ -2,6 +2,11 @@
   "values": [
     "dndmod:adamantine_block",
     "dndmod:raw_adamantine_block",
+    "dndmod:electrum_block",
+    "dndmod:raw_electrum_block",
+    "dndmod:electrum_ore",
+    "dndmod:deepslate_electrum_ore",
+    "dndmod:adamant_block",
     "dndmod:raw_adamant_block",
     "dndmod:adamant_ore",
     "dndmod:deepslate_adamant_ore"

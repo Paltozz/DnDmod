@@ -1,5 +1,8 @@
 {
   "values": [
-
+    "dndmod:electrum_block",
+    "dndmod:raw_electrum_block",
+    "dndmod:electrum_ore",
+    "dndmod:deepslate_electrum_ore"
   ]
 }

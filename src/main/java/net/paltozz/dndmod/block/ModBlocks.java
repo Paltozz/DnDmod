@@ -22,6 +22,13 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> OVERSIZED_D6 = registerBlock("oversized_d6",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANVIL)));
+
+    public static final RegistryObject<Block> ADAMANT_ORE = registerBlock("adamant_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(5,9)));
+    public static final RegistryObject<Block> DEEPSLATE_ADAMANT_ORE = registerBlock("deepslate_adamant_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
+                    .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(5,9)));
     public static final RegistryObject<Block> RAW_ADAMANT_BLOCK = registerBlock("raw_adamant_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
     public static final RegistryObject<Block> ADAMANT_BLOCK = registerBlock("adamant_block",
@@ -32,12 +39,17 @@ public class ModBlocks {
     public static final RegistryObject<Block> ADAMANTINE_BLOCK = registerBlock("adamantine_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
-    public static final RegistryObject<Block> ADAMANT_ORE = registerBlock("adamant_ore",
+
+    public static final RegistryObject<Block> ELECTRUM_ORE = registerBlock("electrum_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(5,9)));
-    public static final RegistryObject<Block> DEEPSLATE_ADAMANT_ORE = registerBlock("deepslate_adamant_ore",
+                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(2,3)));
+    public static final RegistryObject<Block> DEEPSLATE_ELECTRUM_ORE = registerBlock("deepslate_electrum_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
-                    .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(5,9)));
+                    .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(5,6)));
+    public static final RegistryObject<Block> RAW_ELECTRUM_BLOCK = registerBlock("raw_electrum_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
+    public static final RegistryObject<Block> ELECTRUM_BLOCK = registerBlock("electrum_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

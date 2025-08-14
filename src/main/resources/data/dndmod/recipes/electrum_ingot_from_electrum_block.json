@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "dndmod:electrum_block"
+    }
+  ],
+  "result": {
+    "item": "dndmod:electrum_ingot",
+    "count": 9
+  }
+}

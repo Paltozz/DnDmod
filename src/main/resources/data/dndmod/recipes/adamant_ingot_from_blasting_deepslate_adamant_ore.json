@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.9,
+  "group": "adamant_ingot",
+  "ingredient": {
+    "item": "dndmod:deepslate_adamant_ore"
+  },
+  "result": "dndmod:adamant_ingot"
+}

@@ -11,9 +11,13 @@
   "block.dndmod.adamant_ore": "Adamant Ore",
   "block.dndmod.deepslate_adamant_ore": "Deepslate Adamant Ore",
   "block.dndmod.raw_adamant_block": "Block of Raw Adamant",
+  "block.dndmod.adamant_block": "Block of Adamant",
+  "block.dndmod.electrum_ore": "Electrum Ore",
+  "block.dndmod.deepslate_electrum_ore": "Deepslate Electrum Ore",
+  "block.dndmod.raw_electrum_block": "Block of Raw Electrum",
+  "block.dndmod.electrum_block": "Block of Electrum",
   "block.dndmod.raw_adamantine_block": "Block of Raw Adamantine",
   "block.dndmod.adamantine_block": "Block of Adamantine",
-  "block.dndmod.adamant_block": "Block of Adamant",
 
   "creativetab.dnd_tab": "D&D Mod"
 }
